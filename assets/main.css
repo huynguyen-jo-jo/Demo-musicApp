@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+.row{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* box-shadow: 3px 3px 50px rgb(155 124 245 / 50%), -3px -3px 50px rgb(155 124 245 / 50%); */
+    /* background-color: #fff; */
+    border: 1px solid rgb(54 231 239);
+    /* 255, 255, 255, 0.5); */
+}
+.col-3{
+    width: 30%;
+}
+.col-6{
+    width: 60%;
+}
+.mr-20{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.mrt-10{
+    margin-top: 10px;
+}
+.text-white{
+    color: #fff;
+}
+.with-70{
+    width: 70%;
+}
+a{
+    text-decoration: none;
+}
+.app{
+    /* height: 1200px; */
+    
+    background: url(./img/Marshmellob.jpg) no-repeat center center/cover ;
+    /* background-repeat: no-repeat;
+    background-size: center;
+    background-image: url(./img/Marshmellob.jpg); */
+}
+.fixed{
+    position: fixed;
+    margin: 0 560px;
+    z-index: 2;
+}
+.main-interface{
+    background: rgba(255, 255, 255, 0.1);
+    width: 400px;
+    height: 580px;
+    /* position: absolute;
+    transform: translate(-50%, -48%);
+    left: 50%;
+    top: 40%; */
+    /* left: 160%;
+    top: 50%; */
+    border-radius: 10px;
+    box-shadow: 3px 2px 50px rgb(155 124 245 / 50%), -3px -3px 50px rgb(155 124 245 / 50%);
+    /* box-shadow: 3px 3px 50px rgb(0 0 0 / 50%), -3px -3px 50px rgb(0 0 0 / 50%); */
+}
+.main-top{
+    justify-content:space-between;
+    display: flex;
+}
+
+.icon-top{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20.8px;
+}
+.music-cd-bg{
+    border-top: 3px solid #fff;
+    border-radius: 50%;
+    width: 90%;
+    margin: 20px 20px -32px 20px;
+    
+}
+.cd-img{
+    width: 70%;
+    border-radius: 50%;
+    margin: 55px 60px;
+    
+}
+.infor-song{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+#progress{
+    outline: none;
+    margin: 23px 18px 0 18px;
+    width: 90%;
+    height: 1%;
+    cursor: pointer;
+}
+.progress::-webkit-slider-thumb {
+    
+    width: 12px;
+    height: 6px;
+    background-color: var(#ec1f55);
+    cursor: pointer;
+  }
+.control-btn{
+    text-align: center;
+    margin-top: 20px;
+    /* margin-top: 409px; */
+}
+.control--btn{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.active{
+    color: aquamarine;
+}
+.hiden{
+    display: none;
+}
+.display{
+    display: inline-block;
+}
+/* .app .pause {
+    display: none;
+  }
+  
+.app.playing .pause{
+    display: inline-block;
+  }
+  
+  .app.playing .play {
+    display: none;
+  } */
+
+.pause{
+    padding: 22px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.play{
+    padding: 22px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.song-img img{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.playlist{
+    /* width: 400px;
+    margin-top: -10px;
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 37%;
+    margin-left: -2px;
+    z-index: 1; */
+
+    width: 400px;
+    color: #fff;
+    margin: 0 auto 0 auto;
+    padding: 650px 0 48px 0;
+    z-index: 1;
+
+}
+.song-infor{
+    line-height: 30px;
+}
