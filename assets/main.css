@@ -50,7 +50,7 @@ a{
 }
 .fixed{
     position: fixed;
-    margin: 0 560px;
+    left: 37%;
     z-index: 2;
 }
 .main-interface{
@@ -168,9 +168,10 @@ a{
 
     width: 400px;
     color: #fff;
-    margin: 0 auto 0 auto;
+    position: relative;
     padding: 650px 0 48px 0;
     z-index: 1;
+    left: 37%;
 
 }
 .song-infor{
